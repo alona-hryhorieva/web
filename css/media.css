@@ -1,0 +1,368 @@
+@media only screen and (max-width: 1200px) {
+  .box_3 .col-md-7 {
+    margin-top: -22px;
+  }
+  .box_3 .description {
+    padding-left: 60px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .box_3 .description .name {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .box_3 .description .text {
+    font-size: 1em;
+  }
+  .box_3 .description::before {
+    content: "\f00c";
+    font-size: 3.1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1;
+  }
+  .box_4 .item .about .text {
+    font-size: 1.7em;
+  }
+  .box_4 .item .about .list .description {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .box {
+    padding: 50px 0 30px;
+  }
+  .head {
+    font-size: 2.2em;
+  }
+  .header .text {
+    font-size: 1.65em;
+  }
+  .box_1 .wrap .head {
+    font-size: 2.3em;
+  }
+  .box_1 .wrap .form_box .btn {
+    font-size: 1.6em;
+    line-height: 33px;
+  }
+  .box_1 .text_common {
+    font-size: 2.3rem;
+  }
+  .box_1 .text_common span {
+    font-size: 3rem;
+  }
+  .forbid .title {
+    font-size: 3rem;
+  }
+  .forbid ul li {
+    font-size: 2.2rem;
+  }
+  .box_3 ul {
+    padding: 0;
+  }
+  .box_3 .description {
+    padding-left: 40px;
+    padding-bottom: 5px;
+  }
+  .box_3 .description .name {
+    font-size: 1.1em;
+  }
+  .box_3 .description .text {
+    font-size: 0.85em;
+    text-align: justify;
+  }
+  .box_3 .description::before {
+    content: "\f00c";
+    font-size: 2.5em;
+  }
+  .registration .form_box .btn {
+    font-size: 1.6em;
+    line-height: 33px;
+  }
+  .box_4 .item .about .text {
+    font-size: 1.7em;
+  }
+  .box_4 .item .about .list .description {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .box_4 .item .about {
+    padding-top: 5px;
+  }
+  .box_4 .item .about .list .description {
+    font-size: 1em;
+  }
+  .box_4 .item_2 .col-md-5 {
+    padding-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    padding: 0;
+  }
+  .header .text {
+    font-size: 1.7em;
+    line-height: 1.2;
+  }
+  .box_1 .wrap .head {
+    font-size: 2.3em;
+  }
+  .box_1 .wrap .form_box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box_1 .wrap .form_box input[type=text] {
+    line-height: 50px;
+  }
+  .box_1 .wrap .form_box .btn {
+    font-size: 1.7em;
+    line-height: 50px;
+  }
+  .registration .form_box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .registration .form_box input[type=text] {
+    line-height: 50px;
+  }
+  .registration .form_box .btn {
+    font-size: 1.7em;
+    line-height: 50px;
+  }
+  .box_4 .img {
+    text-align: center;
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .box_4 .img img {
+    width: 70%;
+  }
+  .box_4 .item_2 .col-md-5 {
+    padding-top: 0;
+  }
+  .box_4 .item .tv {
+    float: none;
+    margin: 0 auto;
+  }
+  .box_3 .img_wrap {
+    max-height: 250px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .box_3 .img_wrap img {
+    margin-top: -227px;
+    width: 90%;
+  }
+  .box_3 .col-md-7 {
+    margin-top: 0;
+  }
+  .box_3 .col-md-7 ul {
+    padding: 0;
+  }
+  .forbid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .head {
+    font-size: 2em;
+  }
+  .box_1 .text_common {
+    font-size: 1.9rem;
+  }
+  .box_1 .text_common span {
+    font-size: 2.7rem;
+  }
+  .forbid .title {
+    font-size: 2.7rem;
+  }
+  .forbid ul li {
+    font-size: 1.8rem;
+  }
+  .registration .text_1 {
+    line-height: 1.2;
+    font-size: 2em;
+  }
+  .box_3 .img_wrap {
+    max-height: 250px;
+  }
+  .box_3 .img_wrap img {
+    margin-top: -219px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box_1 .wrap .head {
+    font-size: 2em;
+  }
+  .box_1 .wrap .text {
+    font-size: 1.6em;
+  }
+  .box_1 .wrap .form_box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box_1 .wrap .form_box input[type=text] {
+    line-height: 35px;
+  }
+  .box_1 .wrap .form_box .btn {
+    font-size: 1.7em;
+    line-height: 40px;
+  }
+  .registration .text_1 {
+    line-height: 1.2;
+    font-size: 1.8em;
+  }
+  .registration .form_box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .registration .form_box input[type=text] {
+    line-height: 35px;
+  }
+  .registration .form_box .btn {
+    font-size: 1.7em;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .tv iframe {
+    width: 80%;
+    height: 270px;
+  }
+  .box_1 .text_common {
+    font-size: 1.7rem;
+  }
+  .box_1 .text_common span {
+    font-size: 2.5rem;
+  }
+  .box_1 .wrap .date {
+    font-size: 2.5em;
+  }
+  .forbid .title {
+    font-size: 2.5rem;
+  }
+  .forbid ul li {
+    font-size: 1.6rem;
+  }
+  .box_3 .img_wrap {
+    max-height: 200px;
+  }
+  .box_3 .img_wrap img {
+    margin-top: -187px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer .copyright {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .footer .text_3 {
+    float: none;
+    text-align: center;
+  }
+  .box_3 .img_wrap {
+    max-height: 200px;
+    padding-left: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box_3 .img_wrap img {
+    margin-top: -130px;
+  }
+  .box_4 .img img {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  ul {
+    padding: 0;
+  }
+  .box {
+    padding: 35px 0 25px;
+  }
+  .head {
+    font-size: 1.7em;
+  }
+  .registration .text_1 {
+    line-height: 1.2;
+    font-size: 1.5em;
+  }
+  .box_3 .img_wrap {
+    max-height: 180px;
+  }
+  .box_3 .img_wrap img {
+    margin-top: -129px;
+  }
+  .header .text {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+  .box_1 .wrap .date {
+    font-size: 2.3em;
+  }
+  .forbid .title {
+    font-size: 2.2rem;
+  }
+  .forbid ul li {
+    font-size: 1.4rem;
+  }
+  .forbid .container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .header .text {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .header .text {
+    font-size: 1.19em;
+  }
+  .box_1 .wrap .head {
+    font-size: 1.8em;
+  }
+  .box_1 .wrap .text {
+    font-size: 1.4em;
+  }
+  .box_1 .wrap .form_box input[type=text] {
+    line-height: 30px;
+  }
+  .box_1 .wrap .form_box .btn {
+    font-size: 1.5em;
+    line-height: 1;
+    padding: 10px 5px;
+  }
+  .box_1 .wrap .date {
+    font-size: 1.85em;
+  }
+  .registration .text_1 {
+    line-height: 1.2;
+    font-size: 1.25em;
+  }
+  .registration .form_box input[type=text] {
+    line-height: 30px;
+  }
+  .registration .form_box .btn {
+    font-size: 1.5em;
+    line-height: 1;
+    padding: 10px 5px;
+  }
+}
